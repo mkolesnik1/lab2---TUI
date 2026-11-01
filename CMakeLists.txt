@@ -21,4 +21,5 @@ find_package(Threads REQUIRED)
 #   mail_core            = Core/Domain (+ Core/Application позже)   (без TUI, без SQLite)
 #   mail_infrastructure  = реализации портов ядра (iconv, Maildir, SQLite)
 add_subdirectory(src/core)
+add_subdirectory(src/infrastructure)
 
