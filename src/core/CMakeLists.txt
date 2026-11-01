@@ -10,6 +10,10 @@ add_library(mail_core STATIC
   domain/rfc2047.cpp
   domain/date.cpp
   domain/mime.cpp
+  domain/summary.cpp
+  domain/sorting.cpp
+  domain/filters.cpp
+  domain/threading.cpp
 )
 target_include_directories(mail_core PUBLIC ${PROJECT_SOURCE_DIR}/src)
 target_link_libraries(mail_core PUBLIC mail_warnings Threads::Threads)
