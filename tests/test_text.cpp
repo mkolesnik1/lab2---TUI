@@ -1,4 +1,5 @@
 #include "check.h"
+#include "core/application/message_renderer.h"
 #include "core/domain/text_util.h"
 
 using namespace mail;
@@ -37,4 +38,12 @@ TEST(text, wrap_text_wraps_words_and_hard_breaks_long_words) {
   const auto blank = wrapText("a\n\nb", 10);  // пустые строки сохраняются
   CHECK_EQ(blank.size(), size_t{3});
   CHECK_EQ(blank[1], std::string(""));
+}
+
+TEST(text, sanitize_filename_blocks_path_traversal) {
+  const std::string s = sanitizeFilename("../../etc/passwd");
+  CHECK(s.find('/') == std::string::npos);
+  CHECK(!s.empty() && s[0] != '.');
+  CHECK_EQ(sanitizeFilename("отчёт.txt"), std::string("отчёт.txt"));
+  CHECK_EQ(sanitizeFilename(".hidden"), std::string("hidden"));
 }

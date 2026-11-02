@@ -1,4 +1,4 @@
-# Ядро: предметная область (разбор писем, кодировки, сортировка, треды).
+# Ядро: предметная область + сценарии приложения.
 # Не линкуется ни с ncurses, ни с SQLite.
 add_library(mail_core STATIC
   domain/flags.cpp
@@ -14,6 +14,8 @@ add_library(mail_core STATIC
   domain/sorting.cpp
   domain/filters.cpp
   domain/threading.cpp
+  application/content_handlers.cpp
+  application/message_renderer.cpp
 )
 target_include_directories(mail_core PUBLIC ${PROJECT_SOURCE_DIR}/src)
 target_link_libraries(mail_core PUBLIC mail_warnings Threads::Threads)

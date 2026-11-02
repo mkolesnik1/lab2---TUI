@@ -6,11 +6,13 @@ add_executable(mail_tests
   test_charset.cpp
   test_rfc2047.cpp
   test_mime.cpp
-  test_threads.cpp)
+  test_threads.cpp
+  test_handlers.cpp
+)
 target_link_libraries(mail_tests PRIVATE mail_infrastructure)
 
 # Один ctest-тест на набор (suite)
-foreach(suite text codec charset rfc2047 mime threads)
+foreach(suite text codec charset rfc2047 mime threads handlers)
   add_test(NAME ${suite} COMMAND mail_tests ${suite})
 endforeach()
 
