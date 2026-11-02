@@ -9,12 +9,13 @@ add_executable(mail_tests
   test_threads.cpp
   test_handlers.cpp
   test_maildir.cpp
+  test_sync.cpp
 )
 target_link_libraries(mail_tests PRIVATE mail_infrastructure)
 target_compile_definitions(mail_tests PRIVATE TEST_DATA_DIR="${CMAKE_CURRENT_SOURCE_DIR}/data")
 
 # Один ctest-тест на набор (suite)
-foreach(suite text codec charset rfc2047 mime threads handlers maildir)
+foreach(suite text codec charset rfc2047 mime threads handlers maildir sync)
   add_test(NAME ${suite} COMMAND mail_tests ${suite})
 endforeach()
 
