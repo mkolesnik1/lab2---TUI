@@ -1,0 +1,12 @@
+From: X <x@example.com>
+To: me@example.org
+Subject: Unknown charset
+Date: Tue, 27 Oct 2026 10:00:00 +0700
+Message-ID: <m26@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=x-unknown-9
+Content-Transfer-Encoding: 8bit
+
+café au lait
+
+The charset in the header is unknown (x-unknown-9), so the client has to guess. The first line contains a single byte 0xE9, which looks like the letter e with an acute accent in Latin-1.

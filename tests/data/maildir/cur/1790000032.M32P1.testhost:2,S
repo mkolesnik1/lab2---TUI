@@ -1,0 +1,22 @@
+From: Alice <alice@example.com>
+To: me@example.org
+Subject: Project plan
+Date: Mon, 02 Nov 2026 10:00:00 +0700
+Message-ID: <root@t>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+
+Root of thread
+
+Hi all,
+
+here is the first draft of the project plan:
+
+  1. Week 1-2: collect requirements and agree on the scope.
+  2. Week 3-5: build the prototype.
+  3. Week 6: testing and bug fixing.
+  4. Week 7: release and retrospective.
+
+Please reply with your comments. Bob, Carol and Dave, I would like to hear from each of you.
+
+Alice

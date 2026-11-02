@@ -1,0 +1,19 @@
+From: Sato <sato@example.jp>
+To: me@example.org
+Subject: =?iso-2022-jp?B?GyRCRnxLXDhsGyhC?=
+Date: Sat, 10 Oct 2026 10:00:00 +0700
+Message-ID: <m09@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-2022-jp
+Content-Transfer-Encoding: 7bit
+
+日本語のメール
+
+佐藤です。
+
+このメールは、ISO-2022-JP という文字コードで送られています。昔の日本語のメールでは、この形式がよく使われていました。
+
+文字が正しく読めていれば、変換は成功です。
+
+よろしくお願いします。
+佐藤

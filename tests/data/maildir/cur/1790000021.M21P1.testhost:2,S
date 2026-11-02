@@ -1,0 +1,33 @@
+From: Team <team@example.com>
+To: me@example.org
+Subject: Three levels
+Date: Thu, 22 Oct 2026 10:00:00 +0700
+Message-ID: <m21@test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIX21A"
+
+--MIX21A
+Content-Type: multipart/mixed; boundary="MIX21B"
+
+--MIX21B
+Content-Type: multipart/alternative; boundary="ALT21"
+
+--ALT21
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Three levels deep
+
+This text sits three multipart levels deep: mixed, then mixed again, then alternative. The client must dig down to it and show it as the body of the message.
+
+--ALT21
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<p>deep html</p>
+
+--ALT21--
+
+--MIX21B--
+
+--MIX21A--

@@ -1,0 +1,14 @@
+From: QP <qp@example.com>
+To: me@example.org
+Subject: QP soft breaks
+Date: Fri, 13 Nov 2026 10:00:00 +0700
+Message-ID: <m43@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Line with soft br=
+eak and equals =3D sign, caf=C3=A9
+
+This line comes after a soft line break: a quoted-printable equals sign at =
+the end of a line glues it to the next one.

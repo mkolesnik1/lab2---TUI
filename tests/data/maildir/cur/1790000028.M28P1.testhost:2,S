@@ -1,0 +1,11 @@
+From: Bad <bad@example.com>
+To: me@example.org
+Subject: Garbage in base64
+Date: Thu, 29 Oct 2026 10:00:00 +0700
+Message-ID: <m28@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: base64
+
+SGVsbG8s IHdv@@cmxkIQ==
+!!!

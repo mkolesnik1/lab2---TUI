@@ -1,0 +1,9 @@
+fRoM: Case <case@example.com>
+subJECT: Case test
+DATE: Wed, 18 Nov 2026 10:00:00 +0700
+Message-ID: <m48@test>
+CONTENT-TYPE: text/plain
+
+Header names are case-insensitive.
+
+Header names in this letter are written like fRoM and subJECT; the client must understand them anyway.

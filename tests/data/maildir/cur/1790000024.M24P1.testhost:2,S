@@ -1,0 +1,33 @@
+From: MAILER-DAEMON <mailer-daemon@example.com>
+To: me@example.org
+Subject: Undelivered Mail Returned to Sender
+Date: Sun, 25 Oct 2026 10:00:00 +0700
+Message-ID: <m24@test>
+MIME-Version: 1.0
+Content-Type: multipart/report; boundary="REP24"; report-type=delivery-status
+
+--REP24
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Delivery failed: mailbox unavailable
+
+This is the mail system at host mx.example.com.
+
+I'm sorry to have to inform you that your message could not be delivered to one or more recipients. The details are in the parts below.
+
+<nobody@example.com>: host mail.example.com said: 550 5.1.1 User unknown
+
+--REP24
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mx.example.com
+Status: 5.1.1
+
+--REP24
+Content-Type: text/rfc822-headers
+
+Subject: original
+To: nobody@example.com
+
+--REP24--

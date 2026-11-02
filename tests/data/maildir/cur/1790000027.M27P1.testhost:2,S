@@ -1,0 +1,9 @@
+From: Broken <broken@example.com>
+To: me@example.org
+Subject: Multipart without boundary
+Date: Wed, 28 Oct 2026 10:00:00 +0700
+Message-ID: <m27@test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed
+
+Broken multipart body text

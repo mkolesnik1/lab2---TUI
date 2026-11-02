@@ -1,0 +1,23 @@
+From: Dev <dev@example.com>
+To: me@example.org
+Subject: Alternative
+Date: Thu, 15 Oct 2026 10:00:00 +0700
+Message-ID: <m14@test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="ALT14"
+
+--ALT14
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Plain version wins
+
+This is the plain-text part of a multipart/alternative message. A client that prefers plain text shows this part and ignores the HTML version.
+
+--ALT14
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<p>HTML version</p><p>The same text, but as HTML.</p>
+
+--ALT14--

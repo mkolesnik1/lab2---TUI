@@ -1,0 +1,21 @@
+From: Bob <bob@example.com>
+To: me@example.org
+Subject: Re: Project plan
+Date: Tue, 03 Nov 2026 10:00:00 +0700
+Message-ID: <b@t>
+MIME-Version: 1.0
+In-Reply-To: <root@t>
+References: <root@t>
+Content-Type: text/plain; charset=us-ascii
+
+Reply B
+
+Hi Alice,
+
+the plan looks reasonable, but I think two weeks for requirements is too short. Last time it took us three.
+
+> 1. Week 1-2: collect requirements and agree on the scope.
+
+Can we move the prototype one week later?
+
+Bob

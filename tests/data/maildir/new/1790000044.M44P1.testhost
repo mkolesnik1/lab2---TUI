@@ -1,0 +1,12 @@
+From: Label <label@example.com>
+To: me@example.org
+Subject: Mislabeled us-ascii
+Date: Sat, 14 Nov 2026 10:00:00 +0700
+Message-ID: <m44@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 8bit
+
+Привет без метки charset
+
+Это письмо написано в UTF-8, но в заголовке указано us-ascii. Клиент должен заметить байты вне ASCII и показать русский текст, а не вопросительные знаки.

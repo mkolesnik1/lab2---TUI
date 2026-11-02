@@ -1,0 +1,16 @@
+From: Cut <cut@example.com>
+To: me@example.org
+Subject: Missing closing boundary
+Date: Fri, 30 Oct 2026 10:00:00 +0700
+Message-ID: <m29@test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIX29"
+
+--MIX29
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Truncated message text
+
+This letter was cut off: the closing boundary line is missing. The client must still show everything that has arrived.
+

@@ -1,0 +1,24 @@
+From: Alice Smith <alice@example.com>
+To: me@example.org
+Subject: Hello world
+Date: Fri, 02 Oct 2026 10:00:00 +0700
+Message-ID: <m01@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hello, this is a plain ASCII message.
+
+Hi!
+
+I am writing to confirm that the quarterly planning meeting is moved to Thursday, 15:00, room 304.
+Please bring your notes on the open items from the last sprint:
+
+  1. Finish the migration of the old reports to the new format.
+  2. Review the pull requests that have been waiting for more than a week.
+  3. Update the user documentation before the release.
+
+If Thursday does not work for you, reply to this message and we will find another time.
+
+Best regards,
+Alice Smith

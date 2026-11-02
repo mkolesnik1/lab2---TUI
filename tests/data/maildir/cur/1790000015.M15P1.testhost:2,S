@@ -1,0 +1,23 @@
+From: Dev <dev@example.com>
+To: me@example.org
+Subject: Alternative reversed
+Date: Fri, 16 Oct 2026 10:00:00 +0700
+Message-ID: <m15@test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="ALT15"
+
+--ALT15
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<p>HTML first</p><p>The same text, but as HTML.</p>
+
+--ALT15
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Plain after HTML
+
+Here the HTML part comes first and the plain-text part second. The client still picks the plain text, because it is the last (and therefore the most faithful) alternative.
+
+--ALT15--

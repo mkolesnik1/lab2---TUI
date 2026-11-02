@@ -1,0 +1,49 @@
+# id\tsubject\tfrom\tbody_contains\tattachments (| separated)
+1790000001.M1P1.testhost	Hello world	Alice Smith	plain ASCII message	
+1790000002.M2P1.testhost	Привет	Борис	Привет, мир! Это письмо в UTF-8.	
+1790000003.M3P1.testhost	Отчёт за октябрь	Анна Петрова	Файл с отчётом готов. Спасибо!	
+1790000004.M4P1.testhost	Привет из KOI8-R	Иван Петров	кодировке KOI8-R, передано как quoted-printable	
+1790000005.M5P1.testhost	Договор №5	Сергей	Договор подписан, документы во вложении.	
+1790000006.M6P1.testhost	Café menu	Chef	Un café, un résumé, naïve.	
+1790000007.M7P1.testhost	Zażółć gęślą	Jan Kowalski	Zażółć gęślą jaźń - test ISO-8859-2.	
+1790000008.M8P1.testhost	こんにちは	田中	こんにちは世界	
+1790000009.M9P1.testhost	日本語	Sato	日本語のメール	
+1790000010.M10P1.testhost	你好	Wang	你好，世界	
+1790000011.M11P1.testhost	哈囉	Chen	哈囉世界	
+1790000012.M12P1.testhost	HTML only	News	Привет, мир & друзья	
+1790000013.M13P1.testhost	HTML cp1251	Shop	Скидка «50%» до конца недели	
+1790000014.M14P1.testhost	Alternative	Dev	Plain version wins	
+1790000015.M15P1.testhost	Alternative reversed	Dev	Plain after HTML	
+1790000016.M16P1.testhost	PDF attached	Legal	Документ во вложении.	contract.pdf
+1790000017.M17P1.testhost	Two attachments	Boss	Two files.	отчёт.txt|фото.png
+1790000018.M18P1.testhost	RFC2231 name	Gmail	RFC 2231 filename.	документ.pdf
+1790000019.M19P1.testhost	RFC2231 continuation	Gmail	Continuation filename.	оченьДлинное.pdf
+1790000020.M20P1.testhost	Deeply nested	Team	Главный текст письма	archive.zip
+1790000021.M21P1.testhost	Three levels	Team	Three levels deep	
+1790000022.M22P1.testhost	Fwd: forwarded	Me	See forwarded message below.	
+1790000023.M23P1.testhost	Only embedded messages	Fwd	Level 2 text	
+1790000024.M24P1.testhost	Undelivered Mail Returned to Sender	MAILER-DAEMON	Delivery failed: mailbox unavailable	
+1790000025.M25P1.testhost	Old style	Old	Old style message without MIME headers.	
+1790000026.M26P1.testhost	Unknown charset	X	café au lait	
+1790000027.M27P1.testhost	Multipart without boundary	Broken	(нет текстового содержимого)	
+1790000028.M28P1.testhost	Garbage in base64	Bad	Hello, world!	
+1790000029.M29P1.testhost	Missing closing boundary	Cut	Truncated message text	
+1790000030.M30P1.testhost	CRLF message	Win	CRLF line one	
+1790000031.M31P1.testhost	Привет мир	Fold	разрезан между словами	
+1790000032.M32P1.testhost	Project plan	Alice	Root of thread	
+1790000033.M33P1.testhost	Re: Project plan	Bob	Reply B	
+1790000034.M34P1.testhost	Re: Project plan	Carol	Reply C to B	
+1790000035.M35P1.testhost	Re: Project plan	Dave	Reply D to root	
+1790000036.M36P1.testhost	Re: Lost thread	Eve	Parent is not in the mailbox	
+1790000037.M37P1.testhost	Cycle X	Xavier	Cycle X body	
+1790000038.M38P1.testhost	Cycle Y	Yvonne	Cycle Y body	
+1790000039.M39P1.testhost	Empty body	Empty		
+1790000040.M40P1.testhost			No subject here	
+1790000041.M41P1.testhost	Attachment only	Files	(нет текстового содержимого)	report.pdf
+1790000042.M42P1.testhost	Text attachment and HTML body	Dev	HTML body wins	notes.txt
+1790000043.M43P1.testhost	QP soft breaks	QP	Line with soft break and equals = sign, café	
+1790000044.M44P1.testhost	Mislabeled us-ascii	Label	Привет без метки charset	
+1790000045.M45P1.testhost	Date with comment	Date	Date with zone comment.	
+1790000046.M46P1.testhost	Quoted name	Doe, John	Name with a comma.	
+1790000047.M47P1.testhost	Encoded name in quotes	Иван Иванов	Encoded word inside quotes.	
+1790000048.M48P1.testhost	Case test	Case	Header names are case-insensitive.	

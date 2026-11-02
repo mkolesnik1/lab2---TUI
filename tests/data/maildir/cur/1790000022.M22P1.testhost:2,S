@@ -1,0 +1,43 @@
+From: Me <me2@example.com>
+To: me@example.org
+Subject: Fwd: forwarded
+Date: Fri, 23 Oct 2026 10:00:00 +0700
+Message-ID: <m22@test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIX22"
+
+--MIX22
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+See forwarded message below.
+
+Hi, forwarding the original message from Orig. Please read it and tell me what you think. The forwarded letter is attached as a part of type message/rfc822: open the parts tree with p to see it.
+
+--MIX22
+Content-Type: message/rfc822
+Content-Disposition: inline
+
+From: Orig <orig@example.com>
+Subject: =?utf-8?B?0JjRgdGF0L7QtNC90L7QtSDQv9C40YHRjNC80L4=?=
+Date: Thu, 01 Oct 2026 10:00:00 +0700
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="ALT22"
+
+--ALT22
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Текст пересланного письма
+
+Это текст исходного письма, которое переслали вложением. В списке частей оно называется «Исходное письмо».
+
+--ALT22
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<p>fwd html</p>
+
+--ALT22--
+
+--MIX22--

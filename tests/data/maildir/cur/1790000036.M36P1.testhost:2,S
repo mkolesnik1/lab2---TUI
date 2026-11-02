@@ -1,0 +1,17 @@
+From: Eve <eve@example.com>
+To: me@example.org
+Subject: Re: Lost thread
+Date: Fri, 06 Nov 2026 10:00:00 +0700
+Message-ID: <e@t>
+MIME-Version: 1.0
+In-Reply-To: <missing@t>
+References: <missing@t>
+Content-Type: text/plain; charset=us-ascii
+
+Parent is not in the mailbox
+
+Hi,
+
+I am replying to a message that is not in this mailbox: it may have been deleted or never delivered. The client should still show this letter, just without a parent in the thread tree.
+
+Eve

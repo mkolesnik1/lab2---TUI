@@ -1,0 +1,11 @@
+From: "Doe, John" <john@example.com>
+To: me@example.org
+Subject: Quoted name
+Date: Mon, 16 Nov 2026 10:00:00 +0700
+Message-ID: <m46@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+
+Name with a comma.
+
+The sender name is written as "Doe, John" in quotes. A naive parser would split it at the comma into two addresses; the client must keep it as one name.

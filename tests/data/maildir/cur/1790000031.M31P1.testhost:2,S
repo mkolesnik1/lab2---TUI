@@ -1,0 +1,13 @@
+From: Fold <fold@example.com>
+To: me@example.org
+Subject: =?utf-8?B?0J/R?=
+ =?utf-8?B?gNC40LLQtdGCINC80LjRgA==?=
+Date: Sun, 01 Nov 2026 10:00:00 +0700
+Message-ID: <m31@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Многобайтный символ разрезан между словами
+
+Тема этого письма записана двумя закодированными словами, и граница между ними проходит посреди многобайтного символа. Клиент должен сначала склеить байты и только потом декодировать их, тогда в списке будет тема «Привет мир».

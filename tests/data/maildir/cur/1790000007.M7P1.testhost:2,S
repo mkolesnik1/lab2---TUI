@@ -1,0 +1,17 @@
+From: Jan Kowalski <jan@example.pl>
+To: me@example.org
+Subject: =?iso-8859-2?B?WmG/87PmIGfqtmyx?=
+Date: Thu, 08 Oct 2026 10:00:00 +0700
+Message-ID: <m07@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-2
+Content-Transfer-Encoding: 8bit
+
+Za¿ó³æ gê¶l± ja¼ñ - test ISO-8859-2.
+
+Cze¶æ!
+
+To zdanie zawiera wszystkie polskie znaki diakrytyczne: ±, æ, ê, ³, ñ, ó, ¶, ¼, ¿. Je¶li widzisz je poprawnie, to przekodowanie z ISO-8859-2 dzia³a.
+
+Pozdrawiam,
+Jan

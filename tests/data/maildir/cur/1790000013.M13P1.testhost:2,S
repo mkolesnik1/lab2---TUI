@@ -1,0 +1,19 @@
+From: Shop <shop@example.ru>
+To: me@example.org
+Subject: HTML cp1251
+Date: Wed, 14 Oct 2026 10:00:00 +0700
+Message-ID: <m13@test>
+MIME-Version: 1.0
+Content-Type: text/html; charset=windows-1251
+Content-Transfer-Encoding: quoted-printable
+
+<p>=D1=EA=E8=E4=EA=E0 &laquo;50%&raquo; &#1076;=EE =EA=EE=ED=F6=E0 <i>=ED=
+=E5=E4=E5=EB=E8</i></p><p>=D1=EA=E8=E4=EA=E0 =E4=E5=E9=F1=F2=E2=F3=E5=F2 =
+=ED=E0 =E2=F1=FE =E7=E8=EC=ED=FE=FE =EA=EE=EB=EB=E5=EA=F6=E8=FE: =EA=F3=F0=
+=F2=EA=E8, =F8=E0=F0=F4=FB, =F8=E0=EF=EA=E8 =E8 =EF=E5=F0=F7=E0=F2=EA=E8.</=
+p><ul><li>=C1=E5=F1=EF=EB=E0=F2=ED=E0=FF =E4=EE=F1=F2=E0=E2=EA=E0 =EF=F0=E8=
+ =E7=E0=EA=E0=E7=E5 =EE=F2 3000 =F0=F3=E1=EB=E5=E9.</li><li>=C2=EE=E7=E2=F0=
+=E0=F2 =E2 =F2=E5=F7=E5=ED=E8=E5 14 =E4=ED=E5=E9.</li><li>=D1=EA=E8=E4=EA=
+=E8 =ED=E5 =F1=F3=EC=EC=E8=F0=F3=FE=F2=F1=FF =F1 =E4=F0=F3=E3=E8=EC=E8 =E0=
+=EA=F6=E8=FF=EC=E8.</li></ul><p>=D1=EF=E0=F1=E8=E1=EE, =F7=F2=EE =E2=FB=E1=
+=E8=F0=E0=E5=F2=E5 =ED=E0=F8 =EC=E0=E3=E0=E7=E8=ED!</p>

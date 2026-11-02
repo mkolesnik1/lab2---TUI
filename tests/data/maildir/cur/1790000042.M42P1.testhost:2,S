@@ -1,0 +1,22 @@
+From: Dev <dev@example.com>
+To: me@example.org
+Subject: Text attachment and HTML body
+Date: Thu, 12 Nov 2026 10:00:00 +0700
+Message-ID: <m42@test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIX42"
+
+--MIX42
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<p>HTML body wins</p><p>The message has an HTML body and a text attachment (notes.txt). The client shows the HTML as plain text; the attachment can be found in the parts tree (key p).</p>
+
+--MIX42
+Content-Type: text/plain
+Content-Disposition: attachment; filename="notes.txt"
+Content-Transfer-Encoding: base64
+
+YXR0YWNoZWQgbm90ZXMK
+
+--MIX42--

@@ -1,0 +1,35 @@
+From: Fwd <fwd@example.com>
+To: me@example.org
+Subject: Only embedded messages
+Date: Sat, 24 Oct 2026 10:00:00 +0700
+Message-ID: <m23@test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIX23A"
+
+--MIX23A
+Content-Type: message/rfc822
+
+From: L2 <l2@example.com>
+Subject: Level 2
+Content-Type: multipart/mixed; boundary="MIX23B"
+
+--MIX23B
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Level 2 text
+
+The second-level message, forwarded inside another message, which itself contains a third one.
+
+--MIX23B
+Content-Type: message/rfc822
+
+From: L3 <l3@example.com>
+Subject: Level 3
+Content-Type: text/plain; charset=us-ascii
+
+Level 3 text
+
+--MIX23B--
+
+--MIX23A--

@@ -1,0 +1,11 @@
+From: Date <date@example.com>
+To: me@example.org
+Subject: Date with comment
+Date: Sun, 15 Nov 2026 10:00:00 +0700
+Message-ID: <m45@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+
+Date with zone comment.
+
+У этого письма три флага: помечено (F), отвечено (R) и прочитано (S). В списке они видны слева от даты.

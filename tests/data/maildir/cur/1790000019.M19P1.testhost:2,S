@@ -1,0 +1,25 @@
+From: Gmail <g@example.com>
+To: me@example.org
+Subject: RFC2231 continuation
+Date: Tue, 20 Oct 2026 10:00:00 +0700
+Message-ID: <m19@test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIX19"
+
+--MIX19
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Continuation filename.
+
+Here the long file name is split into several pieces (filename*0*, filename*1*, ...). The client must glue them together and decode the result.
+
+--MIX19
+Content-Type: application/pdf
+Content-Disposition: attachment; filename*0*=utf-8''%D0%BE%D1%87%D0%B5%D0%BD%D1%8C%D0%94%D0%BB%D0%B8%D0%BD;
+ filename*1*=%D0%BD%D0%BE%D0%B5.pdf
+Content-Transfer-Encoding: base64
+
+JVBERi0xLjQgeQ==
+
+--MIX19--

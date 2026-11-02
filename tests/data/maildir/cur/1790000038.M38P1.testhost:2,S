@@ -1,0 +1,12 @@
+From: Yvonne <y@example.com>
+To: me@example.org
+Subject: Cycle Y
+Date: Sun, 08 Nov 2026 10:00:00 +0700
+Message-ID: <y@t>
+MIME-Version: 1.0
+In-Reply-To: <x@t>
+Content-Type: text/plain; charset=us-ascii
+
+Cycle Y body
+
+See the letter Cycle X: the two messages point at each other.

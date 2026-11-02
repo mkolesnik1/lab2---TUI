@@ -1,0 +1,19 @@
+From: Carol <carol@example.com>
+To: me@example.org
+Subject: Re: Project plan
+Date: Wed, 04 Nov 2026 10:00:00 +0700
+Message-ID: <c@t>
+MIME-Version: 1.0
+In-Reply-To: <b@t>
+References: <root@t> <b@t>
+Content-Type: text/plain; charset=us-ascii
+
+Reply C to B
+
+Bob, I agree about the requirements. But if we move the prototype, testing must not shrink: it was the part we cut last time and it hurt.
+
+> Can we move the prototype one week later?
+
+Maybe we can start the testing plan in parallel with the prototype.
+
+Carol

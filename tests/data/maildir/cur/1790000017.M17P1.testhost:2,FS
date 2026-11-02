@@ -1,0 +1,37 @@
+From: Boss <boss@example.com>
+To: me@example.org
+Subject: Two attachments
+Date: Sun, 18 Oct 2026 10:00:00 +0700
+Message-ID: <m17@test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIX17"
+
+--MIX17
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Two files.
+
+Hi,
+
+attached are the report and the photo from the site visit. The report is a plain text file, the photo is a PNG. Please have a look before the meeting.
+
+Thanks,
+Boss
+
+--MIX17
+Content-Type: text/plain
+Content-Disposition: attachment; filename="=?utf-8?B?0L7RgtGH0ZHRgi50eHQ=?="
+Content-Transfer-Encoding: base64
+
+0KHQvtC00LXRgNC20LjQvNC+0LUg0L7RgtGH0ZHRgtCwCg==
+
+--MIX17
+Content-Type: image/png
+Content-Disposition: attachment; filename="=?utf-8?Q?=D1=84=D0=BE=D1=82=D0=BE.png?="
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAhIiMkJSYnKCkqKywtLi8w
+MTIzNDU2Nzg5Ojs8PT4/
+
+--MIX17--

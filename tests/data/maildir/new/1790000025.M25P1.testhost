@@ -1,0 +1,9 @@
+From: Old <old@example.com>
+To: me@example.org
+Subject: Old style
+Date: Mon, 26 Oct 2026 10:00:00 +0700
+Message-ID: <m25@test>
+
+Old style message without MIME headers.
+
+There is no MIME-Version or Content-Type header in this message. Letters like this were common before MIME appeared, and a client should show them as plain ASCII text.

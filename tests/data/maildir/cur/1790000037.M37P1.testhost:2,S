@@ -1,0 +1,12 @@
+From: Xavier <x@example.com>
+To: me@example.org
+Subject: Cycle X
+Date: Sat, 07 Nov 2026 10:00:00 +0700
+Message-ID: <x@t>
+MIME-Version: 1.0
+In-Reply-To: <y@t>
+Content-Type: text/plain; charset=us-ascii
+
+Cycle X body
+
+This letter says it is a reply to Cycle Y, and Cycle Y says it is a reply to this one. Such a loop is a broken header, and the client must not hang on it.

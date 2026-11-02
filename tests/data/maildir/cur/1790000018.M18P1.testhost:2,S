@@ -1,0 +1,24 @@
+From: Gmail <g@example.com>
+To: me@example.org
+Subject: RFC2231 name
+Date: Mon, 19 Oct 2026 10:00:00 +0700
+Message-ID: <m18@test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIX18"
+
+--MIX18
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+RFC 2231 filename.
+
+This message has an attachment whose file name is written in the RFC 2231 form (filename*=utf-8''...). A correct client shows the name as an ordinary Russian word, not as a string of percent signs.
+
+--MIX18
+Content-Type: application/pdf
+Content-Disposition: attachment; filename*=utf-8''%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82.pdf
+Content-Transfer-Encoding: base64
+
+JVBERi0xLjQgeA==
+
+--MIX18--
