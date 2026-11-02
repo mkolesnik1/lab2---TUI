@@ -16,6 +16,7 @@ add_library(mail_core STATIC
   domain/threading.cpp
   application/content_handlers.cpp
   application/message_renderer.cpp
+  application/store_registry.cpp
 )
 target_include_directories(mail_core PUBLIC ${PROJECT_SOURCE_DIR}/src)
 target_link_libraries(mail_core PUBLIC mail_warnings Threads::Threads)
