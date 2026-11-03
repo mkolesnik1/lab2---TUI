@@ -22,6 +22,7 @@ find_package(Threads REQUIRED)
 #   mail_infrastructure  = реализации портов ядра (iconv, Maildir, SQLite)
 add_subdirectory(src/core)
 add_subdirectory(src/infrastructure)
+add_subdirectory(src/presentation)
 
 
 if(MAIL_BUILD_TESTS)
