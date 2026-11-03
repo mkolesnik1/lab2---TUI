@@ -18,11 +18,13 @@ endif()
 find_package(Threads REQUIRED)
 
 # Слои (зависимости только вниз):
-#   mail_core            = Core/Domain (+ Core/Application позже)   (без TUI, без SQLite)
-#   mail_infrastructure  = реализации портов ядра (iconv, Maildir, SQLite)
+#   mail_core            = Core/Domain + Core/Application   (без TUI, без SQLite)
+#   mail_infrastructure  = Maildir, SQLite, iconv            (реализует порты ядра)
+#   mail_presentation    = ncurses TUI                       (зависит только от ядра)
 add_subdirectory(src/core)
 add_subdirectory(src/infrastructure)
 add_subdirectory(src/presentation)
+add_subdirectory(app)
 
 
 if(MAIL_BUILD_TESTS)
